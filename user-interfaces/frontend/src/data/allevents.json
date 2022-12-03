@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "organizer_employee_id": "jane.doe",
+    "name": "Volunteering Activity @ Sun Plaza Park",
+    "date": "20/03/2021",
+    "time": "09:00 AM– 11:00 AM",
+    "location": "407 Tampines Street 41 Sun Plaza Green Singapore 520407",
+    "info_for_participants": "The event will be cancelled in the event of wet weather. ",
+    "registration_opens_on": "2021-03-10T00:00:00",
+    "registration_closes_on": "2021-03-17T00:00:00",
+    "capacity": 10,
+    "fill": 2,
+    "image": "https://pbs.twimg.com/media/Dap2TNXWAAAXn8i.jpg",
+    "tags": "outdoor"
+  },
+  {
+    "id": 2,
+    "organizer_employee_id": "jane.doe",
+    "name": "Morning Walk / Walk For Rice @ Kallang",
+    "date": "16/01/2022",
+    "time": "07:00 AM– 11:00 AM",
+    "location": "8 Stadium Boulevard Home of Athletics (HOA) Singapore 397804",
+    "info_for_participants": "Volunteers are required to assist the Kallang ActiveSG team in the following:",
+    "registration_opens_on": "2021-12-29T00:00:00",
+    "registration_closes_on": "2022-01-12T00:00:00",
+    "capacity": 30,
+    "fill": 1,
+    "image": "https://pbs.twimg.com/media/Dap2TNXWAAAXn8i.jpg",
+    "tags": "outdoor"
+  }
+]

@@ -1,0 +1,104 @@
+[
+    [
+        {
+          "total_cost": 140,
+          "no_of_clusters": 2,
+          "destination": [
+            "Somerset MRT Station (NS23)",
+            1.30025287710544,
+            103.839158336848
+          ]
+        }
+    ],
+
+ [{
+      "duration": 36,
+      "no_of_passengers": 27,
+      "bus_size": 45,
+      "locations_with_no_of_ppl": {
+        "Tuas Crescent MRT Station (EW31)": 6,
+        "Pioneer MRT Station (EW28)": 18,
+        "Chinese Garden MRT Station (EW25)": 3
+      },
+      "locations_with_coordinates": [
+        [
+          "Tuas Crescent MRT Station (EW31)",
+          1.32102695188066,
+          103.649078232635
+        ],
+        [
+          "Pioneer MRT Station (EW28)",
+          1.33758688240768,
+          103.697321513018
+        ],
+        [
+          "Chinese Garden MRT Station (EW25)",
+          1.34235282081403,
+          103.732596738363
+        ],
+        [
+          "Somerset MRT Station (NS23)",
+          1.30025287710544,
+          103.839158336848
+        ]
+      ],
+      "mean_coordinates_for_initial_locations_list": [
+        1.3253048830519527,
+        103.729538705216
+      ]
+    },
+    {
+      "duration": 50,
+      "no_of_passengers": 33,
+      "bus_size": 45,
+      "locations_with_no_of_ppl": {
+        "Woodlands MRT Station (NS9)": 3,
+        "Admiralty MRT Station (NS10)": 8,
+        "Sembawang MRT Station (NS11)": 6,
+        "Buangkok MRT Station (NE15)": 2,
+        "Hougang MRT Station (NE14)": 8,
+        "Kovan MRT Station (NE13)": 6
+      },
+      "locations_with_coordinates": [
+        [
+          "Woodlands MRT Station (NS9)",
+          1.43606698186149,
+          103.787930806962
+        ],
+        [
+          "Admiralty MRT Station (NS10)",
+          1.44058500086852,
+          103.800988000403
+        ],
+        [
+          "Sembawang MRT Station (NS11)",
+          1.44905082158503,
+          103.820046140211
+        ],
+        [
+          "Buangkok MRT Station (NE15)",
+          1.38287785835055,
+        103.893121564391
+        ],
+        [
+          "Hougang MRT Station (NE14)",
+          1.37129229221246,
+          103.892380518741
+        ],
+        [
+          "Kovan MRT Station (NE13)",
+          1.36017917065238,
+          103.885064856353
+        ],
+        [
+          "Somerset MRT Station (NS23)",
+          1.30025287710544,
+          103.839158336848
+        ]
+      ],
+      "mean_coordinates_for_initial_locations_list": [
+        1.3914721432336956,
+        103.84552717484414
+      ]
+    }]
+]
