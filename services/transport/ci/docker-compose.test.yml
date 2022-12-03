@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  ##################################
+  # Pytest on Transport Service
+  ##################################
+  transport-pytest:
+    build:
+      context: ../
+      dockerfile: ci/Dockerfile.test
+    environment:
+      COOKIE_JWT_SECRET: 02880ac0d9e74cb029b534f6204e2eb9d4ab10736a86ed19d8f0614daabcb7d9
+      PYTHONPATH: . pytest

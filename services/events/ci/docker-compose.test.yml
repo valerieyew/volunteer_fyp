@@ -1,0 +1,25 @@
+version: "3.8"
+
+services:
+  ####################################
+  # mysql database  
+  ####################################
+  mysql:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: test
+
+  ##################################
+  # Pytest on Events Service
+  ##################################
+  events-pytest:
+    build:
+      context: ../
+      dockerfile: ci/Dockerfile.test
+    depends_on:
+      - mysql
+    environment:
+      SQLALCHEMY_DATABASE_URI: mysql+mysqlconnector://root:password@mysql:3306
+      COOKIE_JWT_SECRET: 21d4ad38dcc9303d7dbeec7a7c0e5145a58335fd086d1bd7d29c53eef078c569
+      PYTHONPATH: . pytest

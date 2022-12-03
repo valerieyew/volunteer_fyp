@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+Flask-Cors = "3.0.10"
+Flask-SQLAlchemy = "2.5.1"
+mysql-connector-python = "8.0.26"
+SQLAlchemy = "<1.4"
+pyjwt = "*"
+pytest = "6.2.5"
+pytest-dependency = "0.5.1"
+pytest-html = "3.1.1"
+pytest-cov = "*"
+
+[dev-packages]
+autopep8 = "*"
+pytest = "*"
+
+[scripts]
+start = "python src/app.py"
+test = "python -m pytest --cov ./src/tests -vv"
+
+lint = "python -m autopep8 src --recursive --in-place --pep8-passes 2000 --verbose"
+
+[requires]
+python_version = "3.9"
