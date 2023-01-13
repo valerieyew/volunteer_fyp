@@ -15,5 +15,7 @@ The transport component is a routing algorithm to help organizers choose a combi
 To do so, we utilize 
 
   (1) an external routing engine, Open Source Routing Machine (OSRM),  
+  
   (2) Python’s Scikit-Learn K-means library for clustering, and 
+  
   (3) Python’s py2opt RouteFinder library to find the optimal route and duration.
